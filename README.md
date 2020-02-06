@@ -4,7 +4,8 @@
 
 ## Installation
 > npm update; 
-> ng serve
+
+> ng serve; 
 
 
 ## SuggestBox component
