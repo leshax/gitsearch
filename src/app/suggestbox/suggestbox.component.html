@@ -1,0 +1,20 @@
+<div class="view">
+  <form class='blue-form'>
+    <div class='input-parent'>
+      <input type="text" #searchInput  />
+      <ul class="user-list" [hidden]='!items.length'>
+        <li *ngFor="let item of items">
+          <div class='user-info'>
+            <div class='pic-container'>
+              <img src="{{item.avatar_url}}" alt="profile_pic" width="{{picSize}}" height="{{picSize}}">
+            </div>
+            <div class='text-container'>
+              <a href="{{item.html_url}}" class="user_name">{{item.login}}</a>
+              <span class="score">Score: {{item.score}}</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </form>
+</div>

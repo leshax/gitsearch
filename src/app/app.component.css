@@ -1,0 +1,24 @@
+.box {
+  border: 1px solid rgba(0,0,0,.03);
+  box-shadow: 0 2px 2px rgba(0,0,0,.24), 0 0 2px rgba(0,0,0,.12);
+  margin: 4px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.head {
+  font-weight: 400;
+  font-family: Roboto,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  padding: 8px 20px;
+  color: rgba(0,0,0,.74);
+  background: rgba(0,0,0,.03);
+}
+body {
+       margin: 0;
+ }
+.center-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
